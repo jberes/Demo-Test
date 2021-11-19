@@ -4,7 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { IgxIconModule, IgxAvatarModule, IgxButtonModule, IgxListModule, IgxInputGroupModule, IgxSelectModule } from 'igniteui-angular';
+import { IgxIconModule, IgxAvatarModule, IgxButtonModule, IgxListModule, IgxGridModule, IgxActionStripModule, IgxInputGroupModule, IgxSelectModule } from 'igniteui-angular';
 import { FormsModule } from '@angular/forms';
 import { MyInfoComponent } from './my-info/my-info.component';
 
@@ -23,6 +23,8 @@ import { MyInfoComponent } from './my-info/my-info.component';
     IgxAvatarModule,
     IgxButtonModule,
     IgxListModule,
+    IgxGridModule,
+    IgxActionStripModule,
     FormsModule,
     IgxInputGroupModule,
     IgxSelectModule

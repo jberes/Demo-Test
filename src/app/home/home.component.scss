@@ -239,6 +239,13 @@
   flex-grow: 1;
   flex-shrink: 0;
 }
+.grid {
+  height: 400px;
+  min-width: 50px;
+  min-height: 50px;
+  width: 800px;
+  flex-shrink: 0;
+}
 .list {
   height: auto;
   min-width: max-content;
